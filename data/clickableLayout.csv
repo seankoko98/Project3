@@ -1,13 +1,31 @@
 ID,Name,State,PNGFilename,Text,x,y,visible
-0,StartScenario,Characters,,Start Scenario,100,650,yes
-1,Start_GoomazonPays,Start,,Goomazon,100,600,yes
-2,Start_CityPays,Start,,City Government,400,600,yes
-3,Start_RaiseTaxes,Start,,Raise Taxes,700,600,yes
-4,GoomazonMoves_CityPays,GoomazonMoves,,Yes: City Pays,100,600,yes
-5,GoomazonMoves_RaiseTaxes,GoomazonMoves,,Yes: Raise Taxes,300,600,yes
-6,GoomazonMoves_BuildRival,GoomazonMoves,,Build a Rival,500,600,yes
-7,GoomazonMoves_IgnoreThem,GoomazonMoves,,Ignore Them,700,600,yes
-8,CityPays_CutTheArts,CityPays,,The Arts,100,600,yes
-9,CityPays_CutTransportation,CityPays,,Transportation,300,600,yes
-10,CityPays_CutCityWages,CityPays,,City Wages,500,600,yes
-11,CityPays_CutParks,CityPays,,Parks,700,600,yes
+0,Continue1,Splash,,click to continue,100,650,yes
+1,Continue2,Introduction,,click to continue,100,600,yes
+2,Continue3,Instructions,,click to continue,400,600,yes
+3,Continue4,Characters,,click to continue,700,600,yes
+4,StartScenario,Welcome,,Begin Scenario,100,600,yes
+5,S11,Scenario1,,SKK Corp ,300,600,yes
+6,S12,Scenario1,,City Government ,500,600,yes
+7,S13,Scenario1,,Raise Taxes ,700,600,yes
+8,S21,Scenario2,,100% natural (more expensive) ,300,600,yes
+9,S22,Scenario2,,Mix of natural and artificial ,500,600,yes
+10,S23,Scenario2,,100% artificial (less expensive) ,700,600,yes
+11,S31,Scenario3,,Local farmers ,300,600,yes
+12,S32,Scenario3,,Farmers in China ,500,600,yes
+13,S33,Scenario3,,Synthetically grown in labs ,700,600,yes
+14,S41,Scenario4,,Grocery stores ,300,600,yes
+15,S42,Scenario4,,Exclusively online ,500,600,yes
+16,S43,Scenario4,,Convenience stores ,700,600,yes
+17,S51,Scenario5,,$1 ,300,600,yes
+18,S52,Scenario5,,$10 ,500,600,yes
+19,S53,Scenario5,,$20 ,700,600,yes
+20,TryAgain,Ending1,,Try Again,700,600,yes
+21,TryAgain,Ending2,,Try Again,700,600,yes
+22,TryAgain,Ending3,,Try Again,700,600,yes
+23,TryAgain,Ending4,,Try Again,700,600,yes
+24,TryAgain,Ending5,,Try Again,700,600,yes
+25,TryAgain,Ending6,,Try Again,700,600,yes
+26,TryAgain,Ending7,,Try Again,700,600,yes
+27,TryAgain,Ending8,,Try Again,700,600,yes
+28,TryAgain,Ending9,,Try Again,700,600,yes
+29,TryAgain,Ending10,,Try Again,700,600,yes
