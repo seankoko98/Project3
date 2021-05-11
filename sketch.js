@@ -111,10 +111,10 @@ function setup() {
   adventureManager.setup();
 
   // create logo sprites 
-    logoSprite1 = createSprite(600,600,300,300);
+    logoSprite1 = createSprite(630,300,300,300);
     logoSprite1.addAnimation('regular', loadAnimation('assets/logo1.png', 'assets/logo5.png'));
     
-    logoSprite2 = createSprite(600,600,300,300);
+    logoSprite2 = createSprite(380,300,300,300);
     logoSprite2.addAnimation('regular', loadAnimation('assets/logo1.png', 'assets/logo5.png'));
 
   // call OUR function to setup additional information about the p5.clickables
@@ -122,6 +122,8 @@ function setup() {
   setupClickables(); 
 
   fs = fullscreen();
+
+  frameRate(20);
 }
 
 // Adventure manager handles it all!
@@ -298,14 +300,18 @@ clickableButtonPressed = function() {
   this.stroke = "FFFFFF";
 } 
 
+// class LogoRoom to draw animated logos 
+
 class LogoRoom1 extends PNGRoom {
   draw() {
+    super.draw();
     drawSprite(logoSprite1);
   }
 }
 
 class LogoRoom2 extends PNGRoom {
   draw() {
+    super.draw();
     drawSprite(logoSprite2);
   }
 }
