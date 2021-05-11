@@ -12,6 +12,7 @@ var adventureManager;
 // p5.play
 var playerSprite;
 var playerAnimation;
+var logoSprite;
 
 // Clickables: the manager class
 var clickablesManager;    // the manager class
@@ -109,8 +110,12 @@ function setup() {
   // This will load the images, go through state and interation tables, etc
   adventureManager.setup();
 
-  // load all text screens
-  // loadAllText();
+  // create logo sprites 
+    logoSprite1 = createSprite(600,600,300,300);
+    logoSprite1.addAnimation('regular', loadAnimation('assets/logo1.png', 'assets/logo5.png'));
+    
+    logoSprite2 = createSprite(600,600,300,300);
+    logoSprite2.addAnimation('regular', loadAnimation('assets/logo1.png', 'assets/logo5.png'));
 
   // call OUR function to setup additional information about the p5.clickables
   // that are not in the array 
@@ -293,5 +298,16 @@ clickableButtonPressed = function() {
   this.stroke = "FFFFFF";
 } 
 
+class LogoRoom1 extends PNGRoom {
+  draw() {
+    drawSprite(logoSprite1);
+  }
+}
+
+class LogoRoom2 extends PNGRoom {
+  draw() {
+    drawSprite(logoSprite2);
+  }
+}
 
 
