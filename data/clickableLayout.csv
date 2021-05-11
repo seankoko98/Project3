@@ -1,31 +1,31 @@
 ID,Name,State,PNGFilename,Text,x,y,visible
-0,Continue1,Splash,,continue,535,600,yes
-1,Continue2,Introduction,,continue,1000,630,yes
-2,Continue3,Instructions,,continue,1000,630,yes
-3,Continue4,Characters,,continue,1000,630,yes
-4,StartScenario,Welcome,,Begin Scenario,535,600,yes
-5,S11,Scenario1,,SKK Corp ,200,500,yes
-6,S12,Scenario1,,City Government ,600,500,yes
-7,S13,Scenario1,,Raise Taxes ,1000,500,yes
-8,S21,Scenario2,,100% natural (more expensive) ,200,500,yes
-9,S22,Scenario2,,Mix of natural and artificial ,600,500,yes
-10,S23,Scenario2,,100% artificial (less expensive) ,1000,500,yes
-11,S31,Scenario3,,Local farmers ,200,500,yes
-12,S32,Scenario3,,Farmers in China ,600,500,yes
-13,S33,Scenario3,,Synthetically grown in labs ,1000,500,yes
-14,S41,Scenario4,,Grocery stores ,200,500,yes
-15,S42,Scenario4,,Exclusively online ,600,500,yes
-16,S43,Scenario4,,Convenience stores ,1000,500,yes
-17,S51,Scenario5,,$1 ,200,500,yes
-18,S52,Scenario5,,$10 ,600,500,yes
-19,S53,Scenario5,,$20 ,1000,500,yes
-20,TryAgain1,Ending1,,Try Again,700,600,yes
-21,TryAgain2,Ending2,,Try Again,700,600,yes
-22,TryAgain3,Ending3,,Try Again,700,600,yes
-23,TryAgain4,Ending4,,Try Again,700,600,yes
-24,TryAgain5,Ending5,,Try Again,700,600,yes
-25,TryAgain6,Ending6,,Try Again,700,600,yes
-26,TryAgain7,Ending7,,Try Again,700,600,yes
-27,TryAgain8,Ending8,,Try Again,700,600,yes
-28,TryAgain9,Ending9,,Try Again,700,600,yes
-29,TryAgain10,Ending10,,Try Again,700,600,yes
+0,Continue1,Splash,,CONTINUE,515,600,yes
+1,Continue2,Introduction,,CONTINUE,1000,630,yes
+2,Continue3,Instructions,,CONTINUE,1000,630,yes
+3,Continue4,Characters,,CONTINUE,1000,630,yes
+4,StartScenario,Welcome,,BEGIN SCENARIO,515,600,yes
+5,S11,Scenario1,,SKK CORP,150,500,yes
+6,S12,Scenario1,,CITY GOVERNMENT,550,500,yes
+7,S13,Scenario1,,RAISE TAXES,950,500,yes
+8,S21,Scenario2,,100% NATURAL (MORE $),150,500,yes
+9,S22,Scenario2,,MIX OF BOTH,550,500,yes
+10,S23,Scenario2,,100% ARTIFICIAL (LESS $),950,500,yes
+11,S31,Scenario3,,LOCAL FARMERS,150,500,yes
+12,S32,Scenario3,,FARMS IN CHINA,550,500,yes
+13,S33,Scenario3,,GROWN IN LABS,950,500,yes
+14,S41,Scenario4,,GROCERY STORES,150,500,yes
+15,S42,Scenario4,,EXCLUSIVELY ONLINE,550,500,yes
+16,S43,Scenario4,,CONVENIENCE STORES ,950,500,yes
+17,S51,Scenario5,,$1 ,150,500,yes
+18,S52,Scenario5,,$10 ,550,500,yes
+19,S53,Scenario5,,$20 ,950,500,yes
+20,TryAgain1,Ending1,,TRY AGAIN,700,600,yes
+21,TryAgain2,Ending2,,TRY AGAIN,700,600,yes
+22,TryAgain3,Ending3,,TRY AGAIN,700,600,yes
+23,TryAgain4,Ending4,,TRY AGAIN,700,600,yes
+24,TryAgain5,Ending5,,TRY AGAIN,700,600,yes
+25,TryAgain6,Ending6,,TRY AGAIN,700,600,yes
+26,TryAgain7,Ending7,,TRY AGAIN,700,600,yes
+27,TryAgain8,Ending8,,TRY AGAIN,700,600,yes
+28,TryAgain9,Ending9,,TRY AGAIN,700,600,yes
+29,TryAgain10,Ending10,,TRY AGAIN,700,600,yes

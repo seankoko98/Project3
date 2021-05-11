@@ -266,22 +266,31 @@ clickableButtonHover = function () {
   this.color = "#01BAD7";
   this.noTint = false;
   this.tint = "#FF0000";
-  this.width = 200;
+  this.width = 250;
   this.height = 50;
+  this.textSize = 18;
+  this.textColor = "#FFFFFF";
+  this.stroke = "FFFFFF";
 }
 
 // color a light gray if off
 clickableButtonOnOutside = function () {
   // backto our gray color
   this.color = "#AAAAAA";
-    this.width = 200;
+  this.width = 250;
   this.height = 50;
+  this.textSize = 18;
+  this.textColor = "#FFFFFF";
+  this.stroke = "FFFFFF";
 }
 
 clickableButtonPressed = function() {
   adventureManager.clickablePressed(this.name);
-    this.width = 200;
+  this.width = 250;
   this.height = 50;
+  this.textSize = 18;
+  this.textColor = "#FFFFFF";
+  this.stroke = "FFFFFF";
 } 
 
 
