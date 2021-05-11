@@ -1,24 +1,24 @@
 ID,Name,State,PNGFilename,Text,x,y,visible
-0,Continue1,Splash,,click to continue,100,650,yes
-1,Continue2,Introduction,,click to continue,100,600,yes
-2,Continue3,Instructions,,click to continue,400,600,yes
-3,Continue4,Characters,,click to continue,700,600,yes
-4,StartScenario,Welcome,,Begin Scenario,100,600,yes
-5,S11,Scenario1,,SKK Corp ,300,600,yes
-6,S12,Scenario1,,City Government ,500,600,yes
-7,S13,Scenario1,,Raise Taxes ,700,600,yes
-8,S21,Scenario2,,100% natural (more expensive) ,300,600,yes
-9,S22,Scenario2,,Mix of natural and artificial ,500,600,yes
-10,S23,Scenario2,,100% artificial (less expensive) ,700,600,yes
-11,S31,Scenario3,,Local farmers ,300,600,yes
-12,S32,Scenario3,,Farmers in China ,500,600,yes
-13,S33,Scenario3,,Synthetically grown in labs ,700,600,yes
-14,S41,Scenario4,,Grocery stores ,300,600,yes
-15,S42,Scenario4,,Exclusively online ,500,600,yes
-16,S43,Scenario4,,Convenience stores ,700,600,yes
-17,S51,Scenario5,,$1 ,300,600,yes
-18,S52,Scenario5,,$10 ,500,600,yes
-19,S53,Scenario5,,$20 ,700,600,yes
+0,Continue1,Splash,,continue,535,600,yes
+1,Continue2,Introduction,,continue,1000,630,yes
+2,Continue3,Instructions,,continue,1000,630,yes
+3,Continue4,Characters,,continue,1000,630,yes
+4,StartScenario,Welcome,,Begin Scenario,535,600,yes
+5,S11,Scenario1,,SKK Corp ,200,500,yes
+6,S12,Scenario1,,City Government ,600,500,yes
+7,S13,Scenario1,,Raise Taxes ,1000,500,yes
+8,S21,Scenario2,,100% natural (more expensive) ,200,500,yes
+9,S22,Scenario2,,Mix of natural and artificial ,600,500,yes
+10,S23,Scenario2,,100% artificial (less expensive) ,1000,500,yes
+11,S31,Scenario3,,Local farmers ,200,500,yes
+12,S32,Scenario3,,Farmers in China ,600,500,yes
+13,S33,Scenario3,,Synthetically grown in labs ,1000,500,yes
+14,S41,Scenario4,,Grocery stores ,200,500,yes
+15,S42,Scenario4,,Exclusively online ,600,500,yes
+16,S43,Scenario4,,Convenience stores ,1000,500,yes
+17,S51,Scenario5,,$1 ,200,500,yes
+18,S52,Scenario5,,$10 ,600,500,yes
+19,S53,Scenario5,,$20 ,1000,500,yes
 20,TryAgain1,Ending1,,Try Again,700,600,yes
 21,TryAgain2,Ending2,,Try Again,700,600,yes
 22,TryAgain3,Ending3,,Try Again,700,600,yes
